@@ -15,14 +15,14 @@ body{
 .container{
     position: relative;
     width: 80vw;
-    height: 600px;
+    height: 500px;
     color: white;
     background-color:rgb(2, 43, 2) ;
     overflow: hidden;
 }
 img {
     position: absolute;
-    right: -283px;
+    right: -150px;
     top: -4px;
     width: auto;
     height: 610px;

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Replication Task</title>
+    <style>
+        body {
+            overflow: hidden;
+            background-image: linear-gradient(to right, blue, purple);
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: linear-gradient(to right, blue, purple);
+        }
+
+        .container a {
+            margin: 5px;
+        }
+
+        .row1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+        .row2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+        button {
+            width: 200px;
+            height: 40px;
+            margin-bottom: 30px;
+            border: none;
+            border-radius: 10px;
+            background-image: linear-gradient(rgb(10, 159, 112), rgb(5, 183, 139));
+            cursor: pointer;
+            transition: 0.5s ease;
+            animation: flyIn 1s forwards;
+        }
+
+        button:hover {
+            background-image: linear-gradient(rgb(225, 0, 120), rgb(144, 4, 121));
+        }
+
+        @keyframes flyIn {
+            0% {
+                opacity: 0;
+                transform: translateY(100px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="row1">
+            <a href="/Workshop-task/First Task/task1.html"><button>Task 1</button></a>
+            <a href="/Workshop-task/First Task/task2.html"><button>Task 2</button></a>
+            <a href="/Workshop-task/First Task/task3.html"><button>Task 3</button></a>
+            <a href="/Workshop-task/Replication Task/template1.html"><button>Template 1</button></a>
+        </div>
+        <div class="row2">
+            <a href="/Workshop-task/Replication Task/template2.html"><button>Template 2</button></a>
+            <a href="/Workshop-task/Replication Task/template3.html"><button>Template 3</button></a>
+            <a href="/Workshop-task/Replication Task/template4.html"><button>Template 4</button></a>
+            <a href="/Workshop-task/Replication Task/template5.html"><button>Template 5</button></a>
+        </div>
+    </div>
+</body>
+</html>
+
